@@ -1,0 +1,23 @@
+{
+  "name": "jobs-data-intelligence",
+  "version": "1.0.0",
+  "description": "Live job listings from Greenhouse, Lever, Ashby, Workday, EURES, Reed, Wellfound, Y Combinator and remote boards. Hosted MCP server, bring your MCPize key.",
+  "mcpServers": {
+    "jobs-data-intelligence": {
+      "httpUrl": "https://jobs-data-intelligence.mcpize.run/mcp",
+      "headers": {
+        "Authorization": "Bearer ${MCPIZE_API_KEY}"
+      },
+      "timeout": 120000
+    }
+  },
+  "contextFileName": "GEMINI.md",
+  "settings": [
+    {
+      "name": "MCPize API key",
+      "description": "Your key for Jobs Data Intelligence. Subscribe on MCPize (Free plan available) and copy the key from the server page.",
+      "envVar": "MCPIZE_API_KEY",
+      "sensitive": true
+    }
+  ]
+}
