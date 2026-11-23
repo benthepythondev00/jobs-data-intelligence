@@ -29,3 +29,5 @@ Billing runs through MCPize: Free for a small monthly allowance, Pro $9 for 1,00
 ## Notes
 
 Independent server by benthepythondev. Not affiliated with or endorsed by the sites it reads. The same data is available as Apify Actors: https://apify.com/benthepythondev
+
+New to Apify? [Create an account](https://apify.com/?fpr=qolupv). This is an affiliate link; I may earn a commission at no extra cost to you.
